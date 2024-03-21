@@ -16,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+      <body className={`${inter.className} bg-slate-900`}>{children}</body>
     </html>
   );
 }
