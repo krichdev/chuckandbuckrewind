@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Chuck and Buck Rewind",
   description: "Easily listen to the latest episode of Chuck and Buck.",
+  metadataBase: new URL("https://chuckandbuckrewind.com"),
+  openGraph: {
+    images: '/opengraph-image.png',
+  },
 };
 
 export default function RootLayout({
